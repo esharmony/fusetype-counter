@@ -5201,10 +5201,10 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.npmjs.org/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
-fusetype@^0.1.3:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/fusetype/-/fusetype-0.1.3.tgz#d8eafb668b1108e52320ebf1153661b361f814ac"
-  integrity sha512-sFGywv1KAlNh9XTdx12IcxNPSUuVp5x5atvpMfwCYEQuA0WhaB+f2ivnSzCgig+eTTvY6TWghDtiszkpdON2yA==
+fusetype@^0.1.7:
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/fusetype/-/fusetype-0.1.7.tgz#877460c8e66641b57640033149a488c6428c494f"
+  integrity sha512-m5N1/ViFGXyH/XZv61N4foZ18dPFHuXUp/lkc9DU779jaEEGYDPa+S+FKegfQ9SMxDbIPLD/xVILwJKqmmehRg==
 
 gensync@^1.0.0-beta.1:
   version "1.0.0-beta.2"

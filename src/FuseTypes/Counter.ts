@@ -10,7 +10,7 @@ export interface CounterFuseType {
   decrement:() => void;
 }
 
-const stopDecrementAtZero = (count: number) => {
+const stopDecrementAtZero = (count: number):void => {
   if(count === 0) return;
   else Counter.state.count--;
 }

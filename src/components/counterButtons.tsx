@@ -1,4 +1,4 @@
-import Counter from '../state/Counter';
+import Counter from '../FuseTypes/Counter';
 
 const CounterButtons = () => {
   return <>

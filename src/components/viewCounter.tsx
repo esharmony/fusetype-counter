@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Counter, { CounterState } from '../state/Counter';
+import Counter, { CounterState } from '../FuseTypes/Counter';
 
 
 const ViewCounter = () => {
@@ -11,7 +11,10 @@ const ViewCounter = () => {
   } 
 
   useEffect(() => {
+
     Counter.register(updateCounter, ViewCounter.name);
+
+    return () => Counter.remove(ViewCounter.name);
   },[]);
   return <h1 style={{color:'white'}}>{counter.count}</h1>;
 }
